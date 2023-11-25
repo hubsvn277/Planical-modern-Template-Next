@@ -18,8 +18,8 @@ const Home = (props) => {
     <>
       <div className="home-container">
         <Head>
-          <title>Planical modern - Template</title>
-          <meta property="og:title" content="Planical modern - Template" />
+          <title>Hubservices.vn</title>
+          <meta property="og:title" content="Hubservices.vn" />
         </Head>
         <Navbar rootClassName="navbar-root-class-name"></Navbar>
         <section className="home-section">
@@ -31,13 +31,9 @@ const Home = (props) => {
                     Giải pháp toàn diện dành cho phòng Game
                   </h1>
                   <span className="home-caption">
-                    Kinh doanh cửa hàng Game trở nên đơn giản và hiệu quả nhất
-                    với
-                    <span
-                      dangerouslySetInnerHTML={{
-                        __html: ' ',
-                      }}
-                    />
+                    Quản lý tài khoản , dịch vụ, doanh thu, bảo vệ thiết bị an
+                    toàn, cập nhật game tự động 24/24... việc kinh doanh cửa
+                    hàng Game, CyberGame, Internet Cafe trở nên đơn giản nhất
                   </span>
                 </header>
                 <div className="home-buttons">
@@ -819,8 +815,8 @@ Here's what the above is doing:
           }
           .home-caption {
             color: rgb(255, 255, 255);
-            font-size: 20px;
-            font-family: Poppins;
+            font-size: 16px;
+            font-family: 'Poppins';
             line-height: 30px;
           }
           .home-buttons {
